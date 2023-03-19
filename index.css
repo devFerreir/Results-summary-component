@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+.cards {
+  display: flex;
+  margin-top: 200px;
+  -webkit-box-shadow: 13px 17px 60px -6px #e9effc;
+  -moz-box-shadow: 13px 17px 60px -6px #e9effc;
+  box-shadow: 13px 17px 60px -6px #e9effc;
+  border-radius: 20px;
+}
+.card1 {
+  width: 336px;
+  height: 462px;
+  background: linear-gradient(180deg, #7857ff 0%, #2e2be9 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 20px;
+  text-align: center;
+}
+.card1 .h1 {
+  color: #c8baff;
+  font-weight: 700;
+  font-family: "Poppins";
+  margin-top: 28px;
+  font-size: 21px;
+  margin-bottom: 24px;
+}
+.result span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.result p {
+  font-family: "Poppins";
+  font-weight: 275;
+}
+.number {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 70px;
+}
+.card1 .result {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(180deg, #4e21ca 0%, rgba(36, 33, 202, 0) 100%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.score {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 275;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+  gap: 18px;
+  display: flex;
+  flex-direction: column;
+}
+.score p {
+  width: 300px;
+  color: #c8baff;
+  margin-bottom: 40px;
+  font-weight: 300;
+}
+.score h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 50px;
+}
+.card2 {
+  width: 406.38px;
+  height: 463.38px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+.summary {
+  margin-top: 15px;
+  padding: 20px;
+}
+.summary h1 {
+  margin-bottom: 15px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+}
+.summary span {
+  font-weight: 700;
+}
+.summary {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.summary p {
+  margin-left: 10px;
+  align-items: center;
+  display: flex;
+  gap: 15px;
+  font-weight: 400;
+}
+.summary p {
+  margin-left: 10px;
+}
+.summary div {
+  width: 334px;
+  height: 51px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding: 12px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.um {
+  background-color: rgba(255, 87, 87, 0.1);
+}
+.um:hover {
+  background-color: rgba(255, 200, 0, 0.1);
+}
+.um p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  color: #f15d5c;
+}
+.dois {
+  background-color: rgba(255, 176, 31, 0.1);
+}
+.dois:hover {
+  background-color: rgba(150, 100, 0, 0.1);
+}
+.dois p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  color: rgba(255, 176, 31, 1);
+}
+.summary img {
+  margin-left: 15px;
+}
+.tres {
+  background-color: rgba(0, 189, 145, 0.1);
+}
+.tres:hover {
+  background-color: rgba(0, 100, 145, 0.1);
+}
+.tres p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  color: #00bd91;
+}
+div h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+}
+.numbers {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  color: #7f8080;
+}
+.quatro {
+  background-color: rgba(17, 37, 212, 0.1);
+}
+.quatro:hover {
+  background-color: rgba(50, 50, 100, 0.1);
+}
+.quatro p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  color: #1125d4;
+}
+.attribution {
+  margin-top: 50px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+button {
+  border: 2px solid #767676;
+  border-radius: 30px;
+  background: #303b5a;
+  width: 300px;
+  height: 57px;
+  padding: 20px;
+  color: white;
+  border: 0;
+  margin-left: 30px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(48, 58, 59, 1);
+}
